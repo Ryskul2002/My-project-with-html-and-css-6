@@ -1,0 +1,22 @@
+.contact{
+  padding: 85px 0 109px 0;
+  &__title{
+    font-family: Nunito Sans sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 139%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #91916C;
+    position: relative;
+    &::before{
+      content: '';
+      position: absolute;
+      width: 288px;
+      border: 3px solid #91916C;
+      top: 70px;
+      left: 425px;
+    }
+  }
+}

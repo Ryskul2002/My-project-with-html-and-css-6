@@ -1,0 +1,64 @@
+.garment{
+  background-color: #FFEFE7;
+  padding: 73px 0 80px;
+  &__title{
+    font-family: Nunito Sans sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 139%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #BD957E;
+    margin-bottom: 96px;
+    position: relative;
+    &::before{
+      content: '';
+      position: absolute;
+      border: 3px solid #B38F79;
+      width: 288px;
+      top: 75px;
+      right: 617px;
+    }
+  }
+  &__subtitle{
+    font-family: Playfair Display sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 139%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #795744;
+    margin-bottom: 85px;
+  }
+  &__row{
+  }
+  &__info{
+    font-family: Nunito Sans sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 171.5%;
+    letter-spacing: 0.02em;
+    color: #333333;
+    &:hover{
+      color: cadetblue;
+    }
+  }
+  &__card{
+    display: flex;
+    column-gap: 56px;
+    justify-content: center;
+    align-items: center;
+    margin: 76px 0 0 0 ;
+  }
+  &__img{
+    transition: .3s;
+    cursor: pointer;
+    &:hover{
+      transition: .3s;
+      transform: scale(1.2);
+    }
+  }
+}
